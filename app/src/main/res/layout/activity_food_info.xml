@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ga.catcat.allerview.Food_info">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/abc_vector_test"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/syongsyong"
+            android:text="AllerView"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/heart"/>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--        상단바 끝 제품 정보 시작-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/title_blue"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="24dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="회사명"
+
+                    />
+
+                <TextView
+                    android:id="@+id/company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="불러오는 중입니다."
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="20dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#4A4848"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/title_blue"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="24dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="제품명"
+
+                    />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="불러오는 중입니다."
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="20dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#4A4848"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/title_red"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="24dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="주의!"
+
+                    />
+
+                <TextView
+                    android:id="@+id/allergy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="불러오는 중입니다."
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="20dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#4A4848"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/title_blue"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="24dp"
+                    android:layout_margin="16dp"
+                    android:gravity="center"
+                    android:text="원재료"
+
+                    />
+
+                <TextView
+                    android:id="@+id/material"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="불러오는 중입니다."
+                    android:layout_margin="16dp"
+                    android:fontFamily="@font/syongsyong"
+                    android:textSize="20dp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#4A4848"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

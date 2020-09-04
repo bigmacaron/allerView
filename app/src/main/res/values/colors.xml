@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF69B4</color>
+    <color name="colorPrimaryDark">#6A7FE6</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="warning">#ED5353</color>
+    <color name="btnStateTrue">#1abc9c</color>
+    <color name="btnPress">#3C776B</color>
+    <color name="btnStateFalse">#777777</color>
+    <color name="btnBluePress">#00a2ed</color>
+    <color name="btnBlueStateTrue">#00b2ed</color>
+
+</resources>
